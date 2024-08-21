@@ -74,5 +74,3 @@ Returns promise
     ]
 }
 ```
-### Keywords
-paginate

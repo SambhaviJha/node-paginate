@@ -1,6 +1,6 @@
 {
   "name": "node-paginate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/SambhaviJha/node-paginate.git"
   },
-  "keywords": [],
+  "keywords": ["paginate", "node-paginate"],
   "author": "",
   "license": "ISC",
   "dependencies": {

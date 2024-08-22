@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 
 // define your routes
-app.post('/users/list', (req, res) => {
+app.post('/users/list', async (req, res) => {
     // Use node-paginate function
     const usersList = await paginate(User, req.body);
     res.status(200).json(usersList);
